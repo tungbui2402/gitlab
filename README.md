@@ -127,6 +127,7 @@ B1: Mở file cấu hình gitlab:
 sudo nano /etc/gitlab/gitlab.rb
 ```
 B2: Tìm dòng `external_url` và đổi 'http://your_domain' về địa chỉ ip của máy. Ví dụ như `https://10.0.5.104`
+
 B3: Lưu file và chạy lệnh sau để chạy lại cấu hình gitlab:
 ```
 sudo gitlab-ctl reconfigure
