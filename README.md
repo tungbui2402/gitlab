@@ -136,7 +136,7 @@ sudo gitlab-ctl reconfigure
 B4: Đăng nhập:
 - Truy cập vào file sau để lấy mật khẩu tài khoản root(administrator):
 ```
-sudo nano /etc/gitlab/initial_root_password
+sudo cat /etc/gitlab/initial_root_password
 ```
 - Sau đó truy cập vào tên miền và thêm `/users/sign_in`, ví dụ như `https://10.0.5.104/users/sign_in`
 - Đăng nhập với tài khoản root và mật khẩu ở file trên
