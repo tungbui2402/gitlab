@@ -146,3 +146,9 @@ sudo cat /etc/gitlab/initial_root_password
 
 
 Nguồn tham khảo: `https://www.youtube.com/watch?v=oqdjLV8q1QM&ab_channel=MivoCloud`
+
+## Các lỗi thường gặp
+### 502:
+Lỗi 502 xảy ra khi khởi động server gitlab. Để sửa tình trạng này thì đợi trình duyệt tầm 3-5 phút rồi ấn f5 để refresh trang là xong.
+### 500:
+Lỗi 500 xảy ra khi vào server gitlab, đăng nhập, tạo project,... Để sửa tình trạng này thì đơn giản chỉ cần nâng memory lên 4GB và processors lên 2 rồi chạy lệnh `sudo gitlab-ctl reconfigure` là chạy được.
